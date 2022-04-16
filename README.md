@@ -1,14 +1,9 @@
-สมาชิกกลุ่ม จาพนมนงรัก
-6310503570 นายวีรนนท์ ธุวสิน
-6310505751 นายภูมิภัทร เปี่ยมลือ
-6310505769 นายสมัชญ์ ห้าวหาญ
-6310506790 นายศิวกร กมลดิลก
+Baby Sound Detector
 ---------------------------------------------------------------------
-env directory
-    คือ python virsual environment ของโปรเจคนี้
 
-firmware directory
-    คือ ที่เก็บโค้ดของตัว microcontroller ประกอบไปด้วย
+env directory คือ python virsual environment ของโปรเจคนี้
+
+firmware directory คือ ที่เก็บโค้ดของตัว microcontroller ประกอบไปด้วย
         1. main.c      ->   ประกอบไปด้วยโค้ดส่วนที่เมื่อมีการตรวจพบเสียงถึงระดับที่เรากำหนด ก็จะไปเปลี่ยนให้ LED ติดเพื่อแสดงให้เห็นว่าสามารถตรวจจับเจอ 
                             และมีฟังก์ชันที่เอาไว้รับ request จากคอมพิวเตอร์ว่าจะเอาสถานะว่าตรวจพบหรือไม่ ส่งคืนค่าไปเป็น 1 ถ้าตรวจจับเสียงได้ ถ้าไม่ก็ 0
         2. peri.c      ->   เป็นไฟล์ที่เก็บรวบรวมฟังก์ชันทั้งหมดที่ใช้ใน main.c ประกอบไปด้วย 
@@ -19,8 +14,7 @@ firmware directory
         4. peri.h
         5. Makefile
 
-python directory
-    คือ ที่เก็บโค้ดที่ใช้สื่อสารกับ microcontroller ประกอบไปด้วย
+python directory คือ ที่เก็บโค้ดที่ใช้สื่อสารกับ microcontroller ประกอบไปด้วย
         1. practicum.py ->  มีคลาส McuBoard ที่มี read/write method ใช้สื่อสารกับ microcontroller และมีคลาส PeriBoard ที่มี method
                             ทำให้ติดต่อสื่อสารกับ microcontroller ได้สะดวกมากขึ้นประกอบไปด้วย
                                 1. get_sound return sound value.
@@ -32,8 +26,7 @@ picture and slide ประกอบไปด้วย
     1. schematic.jpg
     2. slide.pdf
 
-requirements.txt
-    python packepage ที่ใช้ สามารถ pip install -r requirements.txt ได้
+requirements.txt python packepage ที่ใช้ สามารถ pip install -r requirements.txt ได้
 
 ---------------------------------------------------------------------
 อุปกรณ์ที่ใช้
