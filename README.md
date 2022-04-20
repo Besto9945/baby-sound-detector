@@ -1,5 +1,7 @@
 # Baby Sound Detector
 ![This is an image](/picture%20and%20slide/baby-sound-detector.png)
+![Youtube Link](https://youtu.be/kagJ3N3T314)
+[![Youtube Link](/picture%20and%20slide/baby-sound-detector.png)](https://youtu.be/kagJ3N3T314)
 
 ## ที่มา
 ในตอนกลางคืนหรือตอนที่ผู้ปกครองของเด็กอยู่คนละห้องกับตัวของเด็ก แล้วเด็กเกิดร้องขึ้นมา ผู้ปกครองก็ไม่สามารถรู้ได้ว่าเด็กร้องและอาจจะทำให้เกิดอันตรายต่อตัวเด็กได้ ดังนั้นกลุ่มของพวกเราจึงได้มีแนวคิดที่จะทำเครื่องตรวจจับเสียงเด็กร้องนี้ขึ้นมา
