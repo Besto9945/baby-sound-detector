@@ -1,6 +1,4 @@
 # Baby Sound Detector
-![This is an image](/picture%20and%20slide/baby-sound-detector.png)
-![Youtube Link](https://youtu.be/kagJ3N3T314)
 [![Youtube Link](/picture%20and%20slide/baby-sound-detector.png)](https://youtu.be/kagJ3N3T314)
 
 ## ที่มา
